@@ -1,4 +1,4 @@
-#sayı tahmin ettirme programı
+#Number guessing program
 
 import random
 
