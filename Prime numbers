@@ -1,0 +1,13 @@
+#find prime numbers in a range
+number1=int(input('Enter first number please= '))
+number2=int(input('Enter second number please= '))
+
+def asalsayıbul(number1,number2):
+    for number in range(number1,number2+1):
+        if number>1:
+            for i in range(2,number):
+                if (number%i == 0):
+                    break
+            else:
+                    print(number)
+asalsayıbul(number1,number2)
